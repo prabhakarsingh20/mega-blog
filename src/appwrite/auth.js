@@ -50,7 +50,6 @@ async getCurrentUser(){
   } catch (error) {
     //throw error
     console.log("App write service:: getCurrentUser::error",error);
-    
   }
   return null;
 }

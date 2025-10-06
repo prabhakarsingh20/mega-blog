@@ -116,7 +116,7 @@ export class Service{
             )
             return true
         } catch (error) {
-            onsole.log("Appwrite serive :: deleteFile :: error", error);
+            console.log("Appwrite serive :: deleteFile :: error", error);
             return false
         }
     }
